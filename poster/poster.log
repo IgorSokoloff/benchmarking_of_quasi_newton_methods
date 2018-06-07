@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.2.24)  7 JUN 2018 13:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.2.24)  7 JUN 2018 14:37
 entering extended mode
 **./poster.tex
 (poster.tex
@@ -819,8 +819,8 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
 ) ("C:\Users\Igor\AppData\Local\Programs\MiKTeX 2.9\tex\latex\was\icomma.sty"
 Package: icomma 2002/03/10 v2.0 (WaS)
 )
-Grid set 23 x 12 = 111.98015pt x 161.5168pt
-TextBlockOrigin set to 30mm x 15mm
+Grid set 23 x 12 = 113.21722pt x 166.25893pt
+TextBlockOrigin set to 25mm x 5mm
 (poster.aux)
 \openout1 = `poster.aux'.
 
@@ -963,7 +963,7 @@ Overfull \vbox (140.0pt too high) detected at line 276
  []
 
 
-Overfull \hbox (9.96465pt too wide) in paragraph at lines 253--288
+Overfull \hbox (1.1814pt too wide) in paragraph at lines 253--288
 []  
  []
 
@@ -971,14 +971,14 @@ Overfull \hbox (9.96465pt too wide) in paragraph at lines 253--288
 File: pic/NewFunction02.pdf Graphic file (type pdf)
 <use pic/NewFunction02.pdf>
 Package pdftex.def Info: pic/NewFunction02.pdf  used on input line 320.
-(pdftex.def)             Requested size: 437.28526pt x 291.53621pt.
+(pdftex.def)             Requested size: 442.11607pt x 294.76065pt.
 <pic/CrossInTray.pdf, id=7, 433.62pt x 289.08pt>
 File: pic/CrossInTray.pdf Graphic file (type pdf)
 <use pic/CrossInTray.pdf>
 Package pdftex.def Info: pic/CrossInTray.pdf  used on input line 321.
-(pdftex.def)             Requested size: 437.28526pt x 291.53621pt.
+(pdftex.def)             Requested size: 442.11607pt x 294.76065pt.
 
-Overfull \hbox (84.7101pt too wide) in paragraph at lines 320--322
+Overfull \hbox (85.58847pt too wide) in paragraph at lines 320--322
 [][] [] 
  []
 
@@ -986,14 +986,14 @@ Overfull \hbox (84.7101pt too wide) in paragraph at lines 320--322
 File: pic/distr_line_search.pdf Graphic file (type pdf)
 <use pic/distr_line_search.pdf>
 Package pdftex.def Info: pic/distr_line_search.pdf  used on input line 339.
-(pdftex.def)             Requested size: 437.28526pt x 291.53621pt.
+(pdftex.def)             Requested size: 442.11607pt x 294.76065pt.
 <pic/distr_trust_region.pdf, id=9, 433.62pt x 289.08pt>
 File: pic/distr_trust_region.pdf Graphic file (type pdf)
 <use pic/distr_trust_region.pdf>
 Package pdftex.def Info: pic/distr_trust_region.pdf  used on input line 340.
-(pdftex.def)             Requested size: 437.28526pt x 291.53621pt.
+(pdftex.def)             Requested size: 442.11607pt x 294.76065pt.
 
-Overfull \hbox (89.9094pt too wide) in paragraph at lines 338--341
+Overfull \hbox (90.78777pt too wide) in paragraph at lines 338--341
 [] [] [] 
  []
 
@@ -1003,17 +1003,17 @@ Underfull \hbox (badness 1107) in paragraph at lines 347--347
  []
 
 
-Underfull \hbox (badness 4739) in paragraph at lines 347--348
-[]|\OT1/cmss/m/n/24.88 square un-der per-
+Underfull \hbox (badness 2941) in paragraph at lines 347--348
+\OT1/cmss/m/n/24.88 per-for-mance pro-file
  []
 
 
-Overfull \hbox (95.32292pt too wide) in paragraph at lines 344--349
+Overfull \hbox (86.53967pt too wide) in paragraph at lines 344--349
 []  
  []
 
 
-Overfull \hbox (73.40617pt too wide) in paragraph at lines 354--361
+Overfull \hbox (64.62292pt too wide) in paragraph at lines 354--361
 []  
  []
 
@@ -1022,20 +1022,24 @@ File: pic/line_search_profiling.pdf Graphic file (type pdf)
 <use pic/line_search_profiling.pdf>
 Package pdftex.def Info: pic/line_search_profiling.pdf  used on input line 369.
 
-(pdftex.def)             Requested size: 453.18987pt x 302.1204pt.
+(pdftex.def)             Requested size: 458.19638pt x 305.46173pt.
 <pic/trust_region_profiling.pdf, id=11, 1084.05pt x 722.7pt>
 File: pic/trust_region_profiling.pdf Graphic file (type pdf)
 <use pic/trust_region_profiling.pdf>
 Package pdftex.def Info: pic/trust_region_profiling.pdf  used on input line 370
 .
-(pdftex.def)             Requested size: 453.18987pt x 302.1204pt.
+(pdftex.def)             Requested size: 458.19638pt x 305.46173pt.
 
-Overfull \hbox (116.5193pt too wide) in paragraph at lines 369--371
+Overfull \hbox (117.74908pt too wide) in paragraph at lines 369--371
 [][] [] 
  []
 
-Missing character: There is no Ã in font cmss17!
-Missing character: There is no © in font cmss17!
+
+Underfull \hbox (badness 10000) in paragraph at lines 392--393
+[][]$\OT1/cmtt/m/n/24.88 https : / / github . com / IgorSokoloff / benchmarking
+ _ of _ quasi _
+ []
+
 [1{C:/Users/Igor/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 Non-PDF special ignored!
 <special> header=psfrag.pro
@@ -1065,27 +1069,27 @@ ion: multiple pdfs with page group included in a single page
 pdfTeX warning: pdflatex.exe (file ./pic/trust_region_profiling.pdf): PDF inclu
 sion: multiple pdfs with page group included in a single page
 >]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 394.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 394.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 399.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 399.
  (poster.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 394.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 394.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 399.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 399.
 Package rerunfilecheck Info: File `poster.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 394.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 399.
  ) 
 Here is how much of TeX's memory you used:
- 17677 strings out of 493303
- 332344 string characters out of 3130219
- 417231 words of memory out of 3000000
- 20873 multiletter control sequences out of 15000+200000
- 12110 words of font info for 46 fonts, out of 3000000 for 9000
+ 17679 strings out of 493303
+ 332372 string characters out of 3130219
+ 418233 words of memory out of 3000000
+ 20874 multiletter control sequences out of 15000+200000
+ 12279 words of font info for 47 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,11n,54p,390b,325s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 55i,11n,54p,390b,348s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/Igor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
 cm/cmex10.pfb><C:/Users/Igor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
 ic/amsfonts/cm/cmmi12.pfb><C:/Users/Igor/AppData/Local/Programs/MiKTeX 2.9/font
@@ -1096,11 +1100,12 @@ ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/U
 sers/Igor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss
 i17.pfb><C:/Users/Igor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/ams
 fonts/cm/cmsy10.pfb><C:/Users/Igor/AppData/Local/Programs/MiKTeX 2.9/fonts/type
-1/public/amsfonts/euler/eurm10.pfb><C:/Users/Igor/AppData/Local/Programs/MiKTeX
- 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on poster.pdf (1 page, 3517992 bytes).
+1/public/amsfonts/cm/cmtt12.pfb><C:/Users/Igor/AppData/Local/Programs/MiKTeX 2.
+9/fonts/type1/public/amsfonts/euler/eurm10.pfb><C:/Users/Igor/AppData/Local/Pro
+grams/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on poster.pdf (1 page, 3525961 bytes).
 PDF statistics:
- 337 PDF objects out of 1000 (max. 8388607)
+ 344 PDF objects out of 1000 (max. 8388607)
  5 named destinations out of 1000 (max. 500000)
  43 words of extra memory for PDF output out of 10000 (max. 10000000)
 

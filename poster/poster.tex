@@ -121,7 +121,7 @@
 % Note however that texblocks can be positioned fractionally as well,
 % so really any convenient grid size can be used.
 %
-\TPGrid[30mm,15mm]{23}{12}      % 3 cols of width 7, plus 2 gaps width 1
+\TPGrid[25mm,5mm]{23}{12}      % 3 cols of width 7, plus 2 gaps width 1
 
 \parindent=0pt
 \parskip=0.1\baselineskip
@@ -260,8 +260,8 @@ $B_k s_k = y_k$ (or $H_k y_k = s_k$)
 	\end{itemize} & \begin{itemize}
 	\item $y_k^Ts_k \approx 0$ formula produce bad results
 	\item sensitive to round-off error
-	\item sensitive to inaccurate bad line search
-	\item can get stuck on a saddle point for nonlinear problem
+	\item sensitive to inaccurate line search
+	\item can get stuck on a saddle point for the nonlinear problem
 \end{itemize}\\ 
 	\hline
 	DFP &  \begin{itemize}
@@ -270,7 +270,7 @@ $B_k s_k = y_k$ (or $H_k y_k = s_k$)
 	\end{itemize}&\multirow{3}{12cm}{
 	\begin{itemize}
 		\item sensitive to round-off error
-		\item sensitive to inaccurate bad line search
+		\item sensitive to inaccurate line search
 		\item can get stuck on a saddle point for nonlinear problem
 	\end{itemize}
 	}\\
@@ -312,7 +312,7 @@ $B_k s_k = y_k$ (or $H_k y_k = s_k$)
 \begin{itemize}
 	\item All quasi-newton methods (BFGS,DFP, PSB, SR1) with two strategies (line search, trust region) were implemented in Python (overall 8 algorithms)
 	\item 165 various $N$-$d (N \ge 2)$ strong benchmark problems
-	\item For each algorithm all problems were launched from random point of domain 100 times and results were averaged
+	\item For each algorithm, all problems were launched from the random point of domain 100 times and results were averaged
 \end{itemize}
 
 Examples of benchmark problems
@@ -344,7 +344,7 @@ Examples of benchmark problems
 	\begin{tabular}{ p{18cm}|p{5cm}|p{7cm}}
 		%\multicolumn{3}{c}{Method}\\
 		%\hline
-		{proportion of problems where have been successfully found global minimizer in more than half of all launches}& { in more than 0.99 launches} &square under perforanse profile plot
+		{Proportion of problems where have been successfully found global minimizer in more than half of all launches}& { in more than 0.99 launches} &square under plot of performance profile function
 				\end{tabular}
 		\end{flushleft}
 
@@ -370,24 +370,26 @@ $\rho_s(\tau) = \fr{1}{n_p}size\{p:1\le p\le n_p, \quad\log(r_{s,p}\le \tau)\}$ 
 	\includegraphics[width=.57\textwidth]{pic/trust_region_profiling.pdf}
 \end{figure}
 
-\Head{Conclusions and Further Work}\\
+\Head{Conclusions and Further Work}
 \begin{itemize}
-	\item Though SR1 is the least robustness it found 
+	\item Trust region based strategy for all methods(except BFGS) successfully solved more problems than line search. It's square metric also showed better results
+	\item Though SR1 solved the least amount of problems it founded solution faster for line search
+	\item Further, one may add to comparison L-BFGS-B
 \end{itemize}
-Source code of this work is available here
-%\medskip
-%\hrule\medskip
+Source code of this work is available here \cite{project}
+\medskip
+\hrule\medskip
 \Head{Acknowledgements}\\
 The author of the project expresses gratitude to Daniil Merkulov for his lectures of optimization and his support in this work.
 \hrule\medskip
-\Head{Bibliography}
+%\Head{Bibliography}
 \begingroup
 \renewcommand{\section}[2]{}%
 %\renewcommand{\chapter}[2]{}% for other classes
 \begin{thebibliography}{}
 	\bibitem{Lushi}Ding, Yang, Enkeleida Lushi, and Qingguo Li. "Investigation of quasi-Newton methods for unconstrained optimization." Simon Fraser University, Canada (2004). 
 	\bibitem{Nocedal} Wright, Stephen, and Jorge Nocedal. Numerical optimization. Springer Science 35.67-68 (1999)
-	\bibitem{Dolan}Dolan, Elizabeth D., and Jorge J. Moré. "Benchmarking optimization software with performance profiles." Mathematical programming 91.2 (2002): 201-213.
+	\bibitem{project}\url{https://github.com/IgorSokoloff/benchmarking_of_quasi_newton_methods}
 \end{thebibliography}
 \endgroup
 
