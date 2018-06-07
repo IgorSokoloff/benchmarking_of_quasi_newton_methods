@@ -339,18 +339,24 @@ Examples of benchmark problems
 	\includegraphics[width=.55\textwidth]{pic/distr_line_search.pdf}
 	\includegraphics[width=.55\textwidth]{pic/distr_trust_region.pdf}%\hfill
 \end{figure}
-
-Proportion of problems that have been successfully solved in more than half and in all launches respectively from random point of domain
+%Proportion of problems that have been successfully found global minimizer in more than half and in all launches respectively from random point of domain
+\begin{flushleft}
+	\begin{tabular}{ p{18cm}|p{5cm}|p{7cm}}
+		%\multicolumn{3}{c}{Method}\\
+		%\hline
+		{proportion of problems where have been successfully found global minimizer in more than half of all launches}& { in more than 0.99 launches} &square under perforanse profile plot
+				\end{tabular}
+		\end{flushleft}
 
 %\multicolumn{7}{|c|}{F}
 
 \begin{flushleft}
-	\begin{tabular}{ p{5cm} |p{2cm}|p{2cm}|p{2cm}|p{2cm}|p{2cm}|p{2cm}|p{2cm}|p{2cm}|p{2cm}|p{2cm} }
-		Strategy	& \multicolumn{2}{c|}{BFGS} & \multicolumn{2}{c|}{DFP} & \multicolumn{2}{c|}{PSB} & \multicolumn{2}{c|}{SR1} & \multicolumn{2}{c}{Total}\\
+	\begin{tabular}{ p{3cm} |p{1.5cm}|p{1.5cm}|p{1.5cm}|p{1.5cm}|p{1.5cm}|p{1.5cm}|p{1.5cm}|p{1.5cm}|p{1.5cm}|p{1.5cm}|p{1.5cm}|p{1.5cm}|p{1.5cm}|p{1.5cm} }
+		Strategy	& \multicolumn{3}{c|}{BFGS} & \multicolumn{3}{c|}{DFP} & \multicolumn{3}{c|}{PSB} & \multicolumn{3}{c|}{SR1} & \multicolumn{2}{c}{Total}\\
 		\hline
-		Line search &0.21 &0.12& 0.16 &0.08&0.09 &0.05&0.09 &0.05&0.07 &0.04\\
+		LS &0.21 &0.12& 2.58&0.16 &0.08&2.54&0.09 &0.05&2.66&0.09 &0.05&2.97&0.07 &0.04\\
 		\hline
-		Trust region&0.18&0.12&0.16&0.1& 0.19&0.14&0.11&0.06&0.1&0.05
+		TR&0.18&0.12&2.93&0.16&0.1&2.91& 0.19&0.14&2.93&0.11&0.06&2.83&0.1&0.05
 	\end{tabular}
 \end{flushleft}
 
@@ -365,11 +371,14 @@ $\rho_s(\tau) = \fr{1}{n_p}size\{p:1\le p\le n_p, \quad\log(r_{s,p}\le \tau)\}$ 
 \end{figure}
 
 \Head{Conclusions and Further Work}\\
-\medskip
-\hrule\medskip
+\begin{itemize}
+	\item Though SR1 is the least robustness it found 
+\end{itemize}
+Source code of this work is available here
+%\medskip
+%\hrule\medskip
 \Head{Acknowledgements}\\
-The author of the project expresses gratitude to Daniil Merkulov for his lectures of optimization and his support in this project.
-
+The author of the project expresses gratitude to Daniil Merkulov for his lectures of optimization and his support in this work.
 \hrule\medskip
 \Head{Bibliography}
 \begingroup
