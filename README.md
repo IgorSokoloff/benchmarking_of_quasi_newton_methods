@@ -1,6 +1,6 @@
 # benchmarking_of_quasi_newton_methods
 
-Here I store the project on the "Optimization methods" course which I had on the 5th and 6th terms at MIPT.
+Here I store Optimization methods course project which I did on the 6th term at MIPT.
 
 The goal of the project is to compare different quazi-newton methods, namely BFGS, PSB, DFP, SR1.
 
